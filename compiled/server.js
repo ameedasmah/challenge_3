@@ -1,0 +1,18 @@
+
+const express = require("express");
+let app = express();
+
+app.use(express.static(__dirname + '/public'));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// app.post(,(req,res)=>{
+//     res.status(201).jason(req.body)
+// })
+app.get('/app', (req, res) => {
+    res.sendFile(__dirname + '/./compiled/public/app.js');
+});
+app.listen(3000, () => {
+    console.log('server is working');
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NlcnZlci5qcyJdLCJuYW1lcyI6WyJleHByZXNzIiwicmVxdWlyZSIsImFwcCIsInVzZSIsInN0YXRpYyIsIl9fZGlybmFtZSIsImpzb24iLCJ1cmxlbmNvZGVkIiwiZXh0ZW5kZWQiLCJnZXQiLCJyZXEiLCJyZXMiLCJzZW5kRmlsZSIsImxpc3RlbiIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiI7QUFDQSxNQUFNQSxVQUFVQyxRQUFRLFNBQVIsQ0FBaEI7QUFDQSxJQUFJQyxNQUFNRixTQUFWOztBQUVBRSxJQUFJQyxHQUFKLENBQVFILFFBQVFJLE1BQVIsQ0FBZUMsWUFBVyxTQUExQixDQUFSO0FBQ0FILElBQUlDLEdBQUosQ0FBUUgsUUFBUU0sSUFBUixFQUFSO0FBQ0FKLElBQUlDLEdBQUosQ0FBUUgsUUFBUU8sVUFBUixDQUFtQixFQUFFQyxVQUFVLElBQVosRUFBbkIsQ0FBUjs7QUFFQTtBQUNBO0FBQ0E7QUFDQU4sSUFBSU8sR0FBSixDQUFRLE1BQVIsRUFBZSxDQUFDQyxHQUFELEVBQUtDLEdBQUwsS0FBVztBQUN0QkEsUUFBSUMsUUFBSixDQUFhUCxZQUFVLDJCQUF2QjtBQUNILENBRkQ7QUFHQUgsSUFBSVcsTUFBSixDQUFXLElBQVgsRUFBZ0IsTUFBSTtBQUNoQkMsWUFBUUMsR0FBUixDQUFZLG1CQUFaO0FBQ0gsQ0FGRCIsImZpbGUiOiJzZXJ2ZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuY29uc3QgZXhwcmVzcyA9IHJlcXVpcmUoXCJleHByZXNzXCIpO1xyXG5sZXQgYXBwID0gZXhwcmVzcygpO1xyXG5cclxuYXBwLnVzZShleHByZXNzLnN0YXRpYyhfX2Rpcm5hbWUgKycvcHVibGljJykpXHJcbmFwcC51c2UoZXhwcmVzcy5qc29uKCkpO1xyXG5hcHAudXNlKGV4cHJlc3MudXJsZW5jb2RlZCh7IGV4dGVuZGVkOiB0cnVlIH0pKTtcclxuXHJcbi8vIGFwcC5wb3N0KCwocmVxLHJlcyk9PntcclxuLy8gICAgIHJlcy5zdGF0dXMoMjAxKS5qYXNvbihyZXEuYm9keSlcclxuLy8gfSlcclxuYXBwLmdldCgnL2FwcCcsKHJlcSxyZXMpPT57XHJcbiAgICByZXMuc2VuZEZpbGUoX19kaXJuYW1lKycvLi9jb21waWxlZC9wdWJsaWMvYXBwLmpzJylcclxufSlcclxuYXBwLmxpc3RlbigzMDAwLCgpPT57XHJcbiAgICBjb25zb2xlLmxvZygnc2VydmVyIGlzIHdvcmtpbmcnKVxyXG59KVxyXG5cclxuIl19
