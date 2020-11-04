@@ -1,11 +1,11 @@
 
 const express = require("express");
-const app = express();
+let app = express();
 
-app.use(express.urlencoded({ extended: false }));
+app.use(express.static(__dirname +'/public'))
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-app.use(express.static(__dirname +'/./puplic'))
 // app.post(,(req,res)=>{
 //     res.status(201).jason(req.body)
 // })

@@ -14,4 +14,4 @@ class App extends React.Component{
             <button>checkout</button>  )
     }
 }
-ReactDOM.render(<App/>,Document.getElementById('app'))
+ReactDOM.render(<App />,document.getElementById('app'))
