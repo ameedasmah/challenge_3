@@ -17,6 +17,7 @@
     "lodash": "^4.6.1",
     "nodemon": "^2.0.6",
     "prop-types": "^15.7.2",
+    "mongoees" : "^4.13.21",
     "express": "^4.17.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
