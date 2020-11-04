@@ -10,7 +10,7 @@
     "postinstall": "curl -s https://raw.githubusercontent.com/reactorcore/pomander/master/bin/install | bash",
     "build": "babel . --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline",
     "build:watch": "babel . --out-dir compiled --presets=react --ignore=node_modules,compiled --source-maps inline --watch",
-    "start": "npx live-server"
+    "start": "nodemon live-server"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.2",
