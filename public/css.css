@@ -1,4 +1,8 @@
 body{
+    background-image: url(/building.jpg);
+background-repeat: no-repeat;
+width: 600px;
+height: 200px;
     text-align: center;
     padding: 40px;
 }
@@ -10,4 +14,31 @@ body{
       right: 0;
       bottom: 0;
       width: 100%;
+}
+#login-box
+{
+    position: relative;
+    margin: 5% auto;
+    height: 400px;
+    width: 600px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+nput[type="text"],
+input[type="password"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
 }
