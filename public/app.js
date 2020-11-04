@@ -1,0 +1,4 @@
+let App = () => /*#__PURE__*/React.createElement("div", null, "Helllo React");
+
+ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById("app"));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL2NsaWVudC9hcHAuanN4Il0sIm5hbWVzIjpbIkFwcCIsIlJlYWN0RE9NIiwicmVuZGVyIiwiZG9jdW1lbnQiLCJnZXRFbGVtZW50QnlJZCJdLCJtYXBwaW5ncyI6IkFBQUEsSUFBSUEsR0FBRyxHQUFHLG1CQUNOLGdEQURKOztBQU1DQyxRQUFRLENBQUNDLE1BQVQsZUFBZ0Isb0JBQUMsR0FBRCxPQUFoQixFQUF5QkMsUUFBUSxDQUFDQyxjQUFULENBQXdCLEtBQXhCLENBQXpCIiwic291cmNlc0NvbnRlbnQiOlsibGV0IEFwcCA9ICgpID0+KFxuICAgIDxkaXY+XG4gICAgICAgIEhlbGxsbyBSZWFjdFxuICAgIDwvZGl2PlxuKTtcblxuIFJlYWN0RE9NLnJlbmRlcig8QXBwIC8+LCBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChcImFwcFwiKSlcbiJdfQ==
